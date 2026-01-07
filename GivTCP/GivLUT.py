@@ -14,7 +14,7 @@ from threading import Lock
 import asyncio
 
 logger = logging.getLogger("GivLUT")
-_client = Client(GiV_Settings.invertorIP,8899)
+_client = Client(GiV_Settings.invertorIP,7654)
 _connection_lock = asyncio.Lock()
 
 class GivClientAsync:
