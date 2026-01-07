@@ -18,7 +18,7 @@ async def watch_plant(
         totalTimeoutErrors=0
         """Refresh data about the Plant."""
         try:
-            client=Client("192.168.2.4",8899)
+            client=Client("192.168.2.4",7654)
             await client.connect()
             logger.critical("Detecting inverter characteristics...")
             await client.detect_plant()
