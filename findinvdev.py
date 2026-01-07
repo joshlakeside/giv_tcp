@@ -11,7 +11,7 @@ inverterStats={}
 async def getInvDeets2(HOST):
     try:
         Stats={}
-        client=Client(HOST,8899,3)
+        client=Client(HOST,7654,3)
         await client.connect()
         await client.detect_plant(additional=False)
         
