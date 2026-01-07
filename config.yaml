@@ -1,8 +1,7 @@
-name:  "GivTCP_Custom"
+name:  "Custom_GivTCP"
 description:  "TCP Modbus connection to MQTT/JSON for Givenergy Battery/PV Invertors Custom"
 version:  "2.4.9"
-image: britkat/giv_tcp-ma
-slug:  "givtcp_Custom"
+slug:  "custom_givtcp"
 homeassistant_api: true
 hassio_api: true
 init:  true
