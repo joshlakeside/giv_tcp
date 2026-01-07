@@ -1,5 +1,5 @@
 name:  "GivTCP_Custom"
-description:  "TCP Modbus connection to MQTT/JSON for Givenergy Battery/PV Invertors"
+description:  "TCP Modbus connection to MQTT/JSON for Givenergy Battery/PV Invertors Custom"
 version:  "2.4.9"
 image: britkat/giv_tcp-ma
 slug:  "givtcp_Custom"
